@@ -18,16 +18,11 @@
                 </div>
             </div>
             <div class="input-container">
-                <input type="text" name="task" placeholder="Digite a tarefa...">
-                <button type="button">Add Task</button>
+                <input type="text" name="task" placeholder="Digite a tarefa..." data-task="input">
+                <button type="button" data-task="button">Add Task</button>
             </div>
         </header>
-        <main class="task-container">
-            <div class="task">
-                <p>Terminar esse projeto</p>
-                <img src="./src/images/excluir-bin.svg" alt="exluir tarefa">
-            </div>
-        </main>
+        <main class="task-container" data-task="container"></main>
     </div>
     <script src="./src/scripts/main.js"></script>
 </body>
