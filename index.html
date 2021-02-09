@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Task List</title>
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="banner">
+                <div class="title">
+                    <h1>Task List</h1>
+                </div>
                 <div>
                     <p>Saturday, June 1</p>
                 </div>
-                <div class="title">
-                    <h1>Todo List</h1>
-                </div>
-                <div class="input-container">
-                    <input type="text" name="task" placeholder="Digite a tarefa">
-                    <button type="button">Add Task</button>
-                </div>
+            </div>
+            <div class="input-container">
+                <input type="text" name="task" placeholder="Digite a tarefa...">
+                <button type="button">Add Task</button>
             </div>
         </header>
         <main class="task-container">
-            <p>Criar o layout</p>
+            <div class="task">
+                <p>Terminar esse projeto</p>
+                <img src="./src/images/excluir-bin.svg" alt="exluir tarefa">
+            </div>
         </main>
     </div>
     <script src="./src/scripts/main.js"></script>
