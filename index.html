@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
+    <div class="image">
+        <img src="./src/images/bg-desktop-dark.jpg" alt="image-background">
+    </div>
     <div class="container">
         <header class="header">
             <div class="banner">
@@ -14,12 +17,12 @@
                     <h1>Task List</h1>
                 </div>
                 <div>
-                    <p>Saturday, June 1</p>
+                    <p data-task="date"></p>
                 </div>
             </div>
             <div class="input-container">
                 <input type="text" name="task" placeholder="Digite a tarefa..." data-task="input">
-                <button type="button" data-task="button">Add Task</button>
+                <button type="submit" data-task="button" onclick="button.submitButton()">Add Task</button>
             </div>
         </header>
         <main class="task-container" data-task="container"></main>
